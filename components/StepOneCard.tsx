@@ -9,7 +9,7 @@ export default function StepOneCard() {
   const [selectedAmount, setSelectedAmount] = useState<string>("500");
 
   return (
-<div className="w-full md:h-[397px] rounded-[20px] bg-neutral-100 px-[20px] py-[16px] shadow-sm flex flex-col border border-[#294F7C]">
+<div className="w-full  rounded-[20px] bg-neutral-100 px-[20px] py-[16px] shadow-sm flex flex-col border border-[#294F7C]">
 
       {/* Step Label */}
       <p className="text-sm font-semibold text-[#FF0000] mb-2">
@@ -72,8 +72,8 @@ export default function StepOneCard() {
             width={34}
             height={24}
           />
-            <div>
-              <p className="text-[12px]  font-semibold text-[#363636]">
+                <div className="leading-tight font-urbanist">
+              <p className="text-[12px] leading-tight  font-semibold text-[#363636]">
                 HDFC Mid-Cap Fund
               </p>
               <p className="text-[10px] text-green-600">
@@ -90,11 +90,11 @@ export default function StepOneCard() {
   width={40}
   height={40}
 />
-            <div>
+            <div className="leading-tight font-urbanist">
                 <p className="text-[12px] font-semibold text-[#363636]">
                 Bandhan Small Cap Fund
               </p>
-              <p className="text-xs text-green-600">
+              <p className="text-[10px] text-green-600">
                 32% (3Y)
               </p>
             </div>

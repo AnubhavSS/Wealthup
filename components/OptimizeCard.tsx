@@ -1,6 +1,6 @@
 export default function OptimizeCard() {
   return (
-    <div className="w-full  h-[397px] rounded-[20px] bg-neutral-100 px-[20px] py-[16px] shadow-sm flex flex-col justify-between border border-[#DDDDDD]">
+    <div className="w-full   rounded-[20px] bg-neutral-100 px-[20px] py-[16px] shadow-sm flex flex-col justify-between border border-[#DDDDDD]">
 
       {/* Top Content */}
       <div>
