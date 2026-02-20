@@ -4,7 +4,7 @@ import StepOneCard from "./StepOneCard";
 
 export default function Roadmap() {
   return (
-    <div className="bg-white rounded-[32px] shadow-xl p-10 w-[1307px] mx-auto">
+    <div className="bg-white rounded-[32px] shadow-xl p-10 w-[85vw] mx-auto">
   <h2 className="text-[24px] text-[#294F7C] mb-8 font-urbanist">
     Your personalized roadmap to{" "}
     <span className="font-bold">

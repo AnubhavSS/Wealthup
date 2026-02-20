@@ -37,11 +37,11 @@ const y2 = y-30 + (tickLength +10/ 2) * Math.cos(180-angle);
 
   return (
     <div className="flex flex-col items-center">
-      <div className="relative rounded-b-[16px] overflow-hidden" style={{ width, height }}>
-       <svg
-  width={width}
-  height={height}
-  viewBox={`0 0 ${width} ${height}`}
+      <div className="relative rounded-b-[16px] w-full max-w-[420px] overflow-hidden" >
+     <svg
+  className="w-full h-auto"
+  viewBox="0 0 398 221"
+  preserveAspectRatio="xMidYMid meet"
 >
   {/* SEMICIRCLE BACKGROUND SHAPE */}
  {/* DOME BACKGROUND */}
@@ -93,8 +93,8 @@ const y2 = y-30 + (tickLength +10/ 2) * Math.cos(180-angle);
   className="absolute left-0 w-full text-center"
   style={{ top: `${centerY-shift-10}px` }}
 >
-  <div className="flex flex-col items-center gap-3 -translate-y-full">
-    <span className="text-[80px] font-bold text-red-400 font-inter leading-[100%] tracking-[0%]">
+  <div className="flex flex-col items-center gap-3 -translate-y-full absolute -top-1/2 left-1/2 -translate-x-1/2">
+    <span className="text-[40px] md:text-[80px] font-bold text-red-400 font-inter leading-[100%] tracking-[0%]">
       {score+20}
     </span>
 
@@ -105,7 +105,7 @@ const y2 = y-30 + (tickLength +10/ 2) * Math.cos(180-angle);
 </div>
 
         {/* Tooltip */}
-       <div className="absolute w-[192px] h-[56px] top-[17px] left-[196px] bg-white shadow-xl px-3 py-2 rounded-lg text-sm leading-[20px] font-inter font-regular">
+       <div className="absolute w-[192px] h-[56px] top-1 left-1/4  md:top-[17px] md:left-[196px] bg-white shadow-xl px-3 py-2 rounded-lg text-sm leading-[20px] font-inter font-regular">
   You need <b>+27</b> points to reach a{" "}
   <span className="text-green-600 font-semibold">good</span>{" "}
   score of <b>70</b>

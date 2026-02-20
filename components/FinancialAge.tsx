@@ -1,6 +1,6 @@
 export default function FinancialAge() {
   return (
-    <div className="w-[420px]">
+    <div className="w-auto md:w-[420px]">
       <h3 className=" text-[#294F7C] text-xl font-regular font-urbanist mb-5">
         Financial independence age
       </h3>
@@ -8,7 +8,7 @@ export default function FinancialAge() {
       <div className="relative rounded-[20px]  overflow-hidden shadow-sm">
 
         {/* Two Panels */}
-        <div className="grid grid-cols-2 h-[131px] w-[420px]">
+        <div className="flex flex-col md:flex-row md:h-[131px] w-[420px]">
 
           {/* LEFT SIDE */}
           <div className="w-[210px] bg-[#F9F9F9] flex flex-col gap-1   items-center border-r border-[#FFFFFF]">

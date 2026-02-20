@@ -6,10 +6,10 @@ import { MdVerifiedUser } from "react-icons/md";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-slate-100 p-10 ">
-      <div className="max-w-6xl mx-auto space-y-8">
+    <main className="min-h-screen max-w-screen bg-slate-100 p-2 flex justify-center items-center ">
+      <div className="flex flex-col gap-8">
 
-        <div className="flex justify-between items-center w-[1307px]">
+        <div className="flex justify-between items-center w-[85vw]">
           <div>
             <h1 className="text-[28px] text-[#294F7C] font-regular font-inter">
               Good Morning, <span className="font-bold">Ankit!</span>
@@ -24,7 +24,7 @@ export default function Home() {
           </div>
         </div>
 
-    <div className="bg-linear-to-r from-[rgb(244,234,234)] to-[#FFFFFF] rounded-2xl shadow-xl p-8 w-[1307px] mx-auto">
+    <div className="bg-linear-to-r from-[rgb(244,234,234)] to-[#FFFFFF] rounded-2xl shadow-xl p-8 w-[85vw] mx-auto">
   <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
 
     <div className="lg:col-span-5 flex flex-col  justify-center">
